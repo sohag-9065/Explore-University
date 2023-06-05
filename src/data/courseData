@@ -1,0 +1,87 @@
+
+
+import course1 from '../assets/coures/course1.webp';
+import course2 from '../assets/coures/course2.webp';
+import course3 from '../assets/coures/course3.webp';
+import course4 from '../assets/coures/course4.webp';
+import course5 from '../assets/coures/course5.webp';
+import course6 from '../assets/coures/course6.webp';
+import course7 from '../assets/coures/course7.webp';
+import course8 from '../assets/coures/course8.webp';
+
+const courses = [
+    {
+        title: "Electric Engineering", 
+        img: course1,
+        courseTeacher: "MR. KHAN",
+        seat: '10',
+        duration: 4,
+        bgColor: "bg-secondary",
+        description: "Separated they live in. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country"
+    },
+    {
+        title: "Electric Engineering", 
+        img: course2,
+        courseTeacher: "MR. KHAN",
+        seat: '10',
+        duration: 4,
+        bgColor: "bg-secondary",
+        description: "Separated they live in. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country"
+    },
+    {
+        title: "Electric Engineering", 
+        img: course3,
+        courseTeacher: "MR. KHAN",
+        seat: '10',
+        duration: 4,
+        bgColor: "bg-secondary",
+        description: "Separated they live in. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country"
+    },
+    {
+        title: "Electric Engineering", 
+        img: course4,
+        courseTeacher: "MR. KHAN",
+        seat: '10',
+        duration: 4,
+        bgColor: "bg-secondary",
+        description: "Separated they live in. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country"
+    },
+    {
+        title: "Electric Engineering", 
+        img: course5,
+        courseTeacher: "MR. KHAN",
+        seat: '10',
+        duration: 4,
+        bgColor: "bg-secondary",
+        description: "Separated they live in. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country"
+    },
+    {
+        title: "Electric Engineering", 
+        img: course6,
+        courseTeacher: "MR. KHAN",
+        seat: '10',
+        duration: 4,
+        bgColor: "bg-secondary",
+        description: "Separated they live in. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country"
+    },
+    {
+        title: "Electric Engineering", 
+        img: course7,
+        courseTeacher: "MR. KHAN",
+        seat: '10',
+        duration: 4,
+        bgColor: "bg-secondary",
+        description: "Separated they live in. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country"
+    },
+    {
+        title: "Electric Engineering", 
+        img: course8,
+        courseTeacher: "MR. KHAN",
+        seat: '10',
+        duration: 4,
+        bgColor: "bg-secondary",
+        description: "Separated they live in. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country"
+    },
+]
+
+export default courses;

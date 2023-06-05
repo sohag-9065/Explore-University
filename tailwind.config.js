@@ -8,18 +8,19 @@ export default {
     extend: {
       colors: {
         primary: "#0D1128",
-        secondary: "#F45E25",
+        secondary: "#FD5F00", 
         third: "#191919",
         fourth: "#4C4C4C",
         fifth: "#5d50c6",
         foot: "#232323",
+        gray: "#666666"
         
       },
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
       },
       backgroundImage: {
-        coffeeBg: "url('./src/assets/coffee_bg.jpg')",
+        contactBg: "url('./src/assets/contact/bg_1.jpg.webp')",
       },
     },
     screens: {
