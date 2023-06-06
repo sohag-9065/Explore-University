@@ -1,11 +1,12 @@
- import ContactBanner from "./ContactBanner";
 import ContactInfo from "./ContactInfo";
 import ContactForm from "./ContactForm";
+import BannerNav from "../shared/BannerNav";
 
 const Contact = () => {
     return (
         <div className="">
-            <ContactBanner />
+            {/* <ContactBanner /> */}
+            <BannerNav title={"Contact Us"} tag={"Contact"}/>
             <ContactInfo />
             <ContactForm />
         </div>

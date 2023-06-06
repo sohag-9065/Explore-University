@@ -27,7 +27,7 @@ const Header = () => {
             <div>
 
                 <div className=" md:hidden px-10 p-4  bg-primary items-center text-white">
-                    <div className=" flex  items-center " onClick={() => setToggle(!toggle)}>
+                    <div className="cursor-pointer flex  items-center " onClick={() => setToggle(!toggle)}>
                         <FontAwesomeIcon icon={faBars}/>
                         <p className="pl-2">MENU</p>
                     </div>

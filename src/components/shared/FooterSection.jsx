@@ -7,7 +7,7 @@ import blog2 from '../../assets/footer/blog2.webp';
 const FooterSection = () => {
     return (
         <div className="bg-foot py-20">
-            <div className="grid grid-cols-4 gap-8  max-w-[1100px]   mx-auto  text-white ">
+            <div className="grid md:grid-cols-4 gap-8 p-6 md:p-2 max-w-[1100px]   mx-auto  text-white ">
                 <div className=" pr-2">
                 
                     <h2 className="text-2xl mb-10">Have a Questions?</h2>
