@@ -55,7 +55,7 @@ const Header = () => {
                         <FontAwesomeIcon icon={faSearch} className=" " />
                     </div>
 
-                    <div className=" flex  gap-10"  onClick={() => setToggle(!toggle)}>
+                    <div className=" flex  gap-10"  onClick={() => setToggle(false)}>
                          {navMenu}
                     </div>
 

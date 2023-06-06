@@ -5,6 +5,7 @@ import BlogSection from "./BlogSection";
 import Culter from "./Culter";   
 import Facilities from "./Facilities";
 import Offer from "./Offer";
+import StaffSection from "./StaffSection";
 
  
 const Home = () => {
@@ -14,7 +15,7 @@ const Home = () => {
             <Facilities />
             <Offer />
             <Course limit={4}/>
-            <Staff limit={4} />
+            <StaffSection />
             <BlogSection />
             <Culter />
         </div>
