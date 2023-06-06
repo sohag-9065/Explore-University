@@ -4,6 +4,9 @@ import ErrorPage from "../components/shared/ErrorPage";
 import Home from "../components/Home/Home";
 import Course from "../components/Course/Course";
 import Contact from "../components/Contact/Contact";
+import Staff from "../components/Staff/Staff";
+import Blog from "../components/Blog/Blog";
+import About from "../components/About/About";
 
 
 export const router = createBrowserRouter([
@@ -21,8 +24,20 @@ export const router = createBrowserRouter([
                 element: <Home />,
             },
             {
-                path: '/courses',
+                path: '/about',
+                element: <About />,
+            },
+            {
+                path: '/course',
                 element: <Course />,
+            },
+            {
+                path: '/staff',
+                element: <Staff />,
+            },
+            {
+                path: '/blog',
+                element: <Blog />,
             },
             {
                 path: '/contact',
