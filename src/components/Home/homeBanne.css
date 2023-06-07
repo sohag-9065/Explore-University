@@ -1,0 +1,7 @@
+/* .slickk-arrow   {
+    display: none !important;
+} */
+
+.slick-dots li.slick-active div  {
+    color:#FD5F00 !important;
+}

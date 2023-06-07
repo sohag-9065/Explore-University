@@ -3,7 +3,7 @@ import { Form } from "react-router-dom";
 
 const ContactForm = () => {
     return (
-        <div className=" max-w-[1100px]   mx-auto grid grid-cols-2">
+        <div className=" max-w-[1140px]   mx-auto grid grid-cols-2">
             <div className="bg-[#E8EAED] flex flex-col justify-center items-center p-20">
                 <p className="py-10">Oops! Something went wrong.</p>
 

@@ -21,7 +21,7 @@ const Header = () => {
     </>
 
     return (
-        <div className="max-w-[1100px]   mx-auto">
+        <div className="max-w-[1140px]   mx-auto">
             <HeaderTop />
 
             <div>

@@ -1,8 +1,14 @@
+import Culter from "../Home/Culter";
+import BannerNav from "../shared/BannerNav";
+import AboutHistory from "./AboutHistory";
+
  
 const About = () => {
     return (
         <div>
-            <h1>About</h1>
+            <BannerNav title={"About US"} tag={"ABOUT US"} />
+            <AboutHistory />
+            <Culter />
         </div>
     );
 };

@@ -17,10 +17,14 @@ export default {
         
       },
       fontFamily: {
-        poppins: ["Poppins", "sans-serif"],
+        poppins: ["Poppins",  "Arial", "sans-serif"],
       },
       backgroundImage: {
         contactBg: "url('./src/assets/contact/bg_1.jpg.webp')",
+        homeBanner1: "url('./src/assets/homeBanner/bg_1.jpg.webp')",
+        homeBanner2: "url('./src/assets/homeBanner/bg_2.jpg.webp')",
+        quoteBg: "url('./src/assets/quotes/bg_5.jpg.webp')",
+        summeryBg: "url('./src/assets/summery/bg_3.jpg.webp')"
       },
     },
     screens: {
