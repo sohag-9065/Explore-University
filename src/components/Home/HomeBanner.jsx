@@ -50,7 +50,7 @@ const HomeBanner = () => {
             <Slider {...settings}>
 
 
-                <div className="bg-homeBanner1 bg-top bg-cover  h-[600px] w-full"  >
+                <div className="bg-[url('https://preview.colorlib.com/theme/fox/images/bg_1.jpg.webp')] bg-top bg-cover  h-[600px] w-full"  >
                     <div className="absolute top-0 bottom-0 left-0 right-0 opacity-30 bg-[#f1453d]/[.6]"></div>
                     <div className="z-20 grid grid-cols-1 px-6 sm:px-12 md:px-6   items-center justify-start max-w-[1140px] mx-auto  cursor-pointer  backdrop-contrast-100 opacity-100  h-full text-white">
                             
@@ -66,7 +66,7 @@ const HomeBanner = () => {
                     </div>
 
                 </div>
-                <div className="bg-homeBanner2 bg-center bg-cover h-[600px] w-full" >
+                <div className="bg-[url('https://preview.colorlib.com/theme/fox/images/bg_2.jpg.webp')]   bg-top bg-cover h-[600px] w-full" >
                     <div className="absolute top-0 bottom-0 left-0 right-0 opacity-30  bg-[#f1453d]/[.6]"></div>
                     <div className="z-20 grid grid-cols-1 px-6 sm:px-12 md:px-6   items-center  max-w-[1140px] mx-auto  cursor-pointer  backdrop-contrast-100 opacity-100  h-full text-white">
                         <div className="  max-w-[400px] mx-auto sm:mx-0 text-center sm:text-start" >
