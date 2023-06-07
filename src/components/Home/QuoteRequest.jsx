@@ -1,8 +1,9 @@
 import './QuoteRequest.css';
+import img1 from '../../assets/quotes/bg_5.jpg.webp'
 
 const QuoteRequest = () => {
     return (
-        <div className="relative bg-quoteBg bg-cover bg-center flex justify-center items-center   h-[635px]  ">
+        <div className="relative  bg-cover bg-center flex justify-center items-center   h-[635px]  " style={{backgroundImage: `url(${img1})`}}>
             <div className="absolute z-10 top-0 bottom-0 left-0 right-0 opacity-40 bg-[#f1453d]"></div>
             <div className=" grid md:grid-cols-2  max-w-[1140px] mx-auto  ">
                 <div></div>

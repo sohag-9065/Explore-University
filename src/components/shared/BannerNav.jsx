@@ -2,10 +2,11 @@
 import { faGreaterThan } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Link } from 'react-router-dom';
+import img from '../../assets/contact/bg_1.jpg.webp'
 
 const BannerNav = ({ title, tag }) => {
     return (
-        <div className="relative bg-contactBg bg-cover bg-center    h-[300px] flex justify-center items-center">
+        <div className="relative   bg-cover bg-center    h-[300px] flex justify-center items-center" style={{backgroundImage: `url(${img})`}}>
             <div className="absolute top-0 bottom-0 left-0 right-0 opacity-30 bg-[#f1453d]"></div>
             <div className="   ">
                 <h2 className="text-5xl font-extrabold text-white backdrop-contrast-100 opacity-100" >{title}</h2>

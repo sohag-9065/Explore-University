@@ -1,4 +1,4 @@
- 
+import img1 from '../../assets/summery/bg_3.jpg.webp'
 import img2 from '../../assets/summery/about-2.jpg.webp'
 
 
@@ -6,7 +6,7 @@ const HomeSummery = () => {
 
 
     return (
-        <div className="relative bg-summeryBg  overflow-hidden px-6 sm:px-12 md:px-6   bg-opacity-80 bg-cover bg-top flex justify-center items-center  py-28  ">
+        <div className="relative   overflow-hidden px-6 sm:px-12 md:px-6   bg-opacity-80 bg-cover bg-top flex justify-center items-center  py-28  " style={{backgroundImage: `url(${img1})`}}>
             <div className="absolute z-10 top-0 bottom-0 left-0 right-0 opacity-30 bg-[#f1453d]"></div>
             {/* <img src={img} alt="" className='w-full top-0 bottom-0 opacity-50  z-0 absolute  ' /> */}
             <div className='  '>
