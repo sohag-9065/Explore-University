@@ -8,7 +8,7 @@ const Contact = () => {
             {/* <ContactBanner /> */}
             <BannerNav title={"Contact Us"} tag={"Contact"}/>
             <ContactInfo />
-            <ContactForm />
+            <ContactForm /> 
         </div>
     );
 };

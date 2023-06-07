@@ -8,9 +8,9 @@ const BlogCart = ({ blog }) => {
     const { title, img, day, month, year, description } = blog;
 
     return (
-        <div className="">
+        <div className="flex flex-col justify-center items-center">
             <div className="relative">
-                <img src={img} alt="" className=" w-[350px] h-[275px]" />
+                <img src={img} alt="" className="  " />
                 <div className="absolute bottom-0 bg-fifth text-white w-12 text-center p-2">
                     <p className="text-2xl font-bold">{day}</p>
                     <p>{month}</p>
@@ -21,7 +21,7 @@ const BlogCart = ({ blog }) => {
                 <h3 className="text-xl pb-4">{title}</h3>
                 <p className="text-gray pb-8">{description}</p>
                 <div className="flex justify-between items-center">
-                    <p className="bg-secondary px-3 py-2 rounded-full text-white">
+                    <p className="bg-secondary outline-1 border-[1px] border-secondary hover:bg-inherit px-3 py-2 rounded-full text-white hover:text-secondary">
                         <span>Read More</span>
                         <FontAwesomeIcon icon={faArrowRight} className="pl-1 text-xs"/>
                     </p>

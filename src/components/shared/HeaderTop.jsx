@@ -1,14 +1,15 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPaperPlane, faPhone } from "@fortawesome/free-solid-svg-icons";
+import { Link } from "react-router-dom";
 
 const HeaderTop = () => {
     return (
-        <div className="grid md:grid-cols-3 gap-5  p-6 md:px-0">
-            <div className="text-third font-extrabold  leading-4">
-                <p className=" text-[44px] leading-10">FOX.</p>
+        <div className="grid  md:grid-cols-3 gap-5 px-4 sm:px-16 md:px-6  py-6 ">
+            <div className="text-third font-extrabold  sm:pb-7 md:pb-0 leading-4">
+                <p><Link to='/' className=" text-[44px] leading-10">FOX.</Link></p>
                 <span className=" pl-[2px]">UNIVERSITY</span>
             </div>
-            <div className="col-span-2 grid gap-3 md:grid-cols-3 ">
+            <div className="col-span-2 grid gap-3  sm:grid-cols-3 ">
                 <div className="flex items-center">
                     <FontAwesomeIcon
                         icon={faPaperPlane}
@@ -30,7 +31,7 @@ const HeaderTop = () => {
                     </div>
                 </div>
                 <div className="flex justify-end items-center text-white">
-                     <p className="border-[1px] border-secondary bg-secondary py-2 px-4 text-xl leading-6 hover:bg-white hover:text-secondary
+                     <p className="border-[1px] border-secondary bg-secondary py-2 px-4 text-xl leading-6 hover:bg-inherit hover:text-secondary
                      ">Apply now</p>
                 </div>
             </div>
