@@ -72,21 +72,21 @@ const Review = () => {
         <div className=' max-w-[1300px] px-8  mx-auto my-20'>
             <h2 className='text-center px-6 text-2xl md:text-5xl font-extrabold mb-10 text-[#333333]'>Student Says About Us</h2>
             <p className='text-center px-6 max-w-[700px] mx-auto mb-20 text-[#B0B0B0]' >Separated they live in. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country</p>
-            <div className='w-full  h-[400px]'>
+            <div className='w-full '>
                 <Slider {...settings}>
 
                     {
                         images.map((img, index) => (
-                            <div key={index} className={` ${index === slideIndex ? " slide slide-active  " : " slide slide-de "} h-[350px] w-full  `}>
+                            <div key={index} className={` ${index === slideIndex ? " slide slide-active  " : " slide slide-de "}   w-full mb-10 `}>
                                 <div className='flex justify-center items-center'>
 
                                     <img src={img} alt="" className='h-28 w-28 rounded-full ml-10' />
 
                                     <div className='ml-4 md:ml-10 relative'>
-                                        <FontAwesomeIcon icon={faQuoteLeft} className='text-[150px] opacity-10 absolute top-0 left-0' />
-                                        <p className='pt-16 md:mr-32 text-xl'>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                                        <FontAwesomeIcon icon={faQuoteLeft} className='text-[60px] md:text-[150px] opacity-10 absolute top-0 left-0' />
+                                        <p className='pt-4 md:pt-8 sm:pt-16 md:mr-32 md:text-xl'>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
                                         
-                                        <h2 className='pt-8 text-xl font-bold'>Henry Dee</h2>
+                                        <h2 className='pt-4 md:pt-8 md:text-xl font-bold'>Henry Dee</h2>
                                         <p>Mother</p>
                                     </div>
                                 </div>

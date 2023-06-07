@@ -25,7 +25,7 @@ const Header = () => {
 
             <HeaderTop />
 
-            <div className="  md:hidden  px-6 sm:px-16 md:px-6   py-1  bg-primary items-center">
+            <div className="  md:hidden  px-6 sm:px-16 md:px-6   py-2  bg-primary items-center">
                 <div className="sm:flex sm:gap-10 justify-between  text-white/[.5]">
                     <div className="sm:flex-none  cursor-pointer flex  items-center " onClick={() => setToggle(!toggle)}>
                         <FontAwesomeIcon icon={faBars}  />
@@ -39,7 +39,7 @@ const Header = () => {
 
                 {
                     toggle &&
-                    <div className=" flex flex-col  gap-5" onClick={() => setToggle(!toggle)}>
+                    <div className=" flex flex-col  gap-5 py-3" onClick={() => setToggle(!toggle)}>
                         {navMenu}
                     </div>
                 }

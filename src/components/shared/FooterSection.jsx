@@ -101,7 +101,7 @@ const FooterSection = () => {
                 </div>
             </div>
 
-            <p className=" text-white text-center pt-24">
+            <p className=" text-white text-center pt-24 px-6">
                 <span>Copyright ©2023 All rights reserved | This template is made with </span>
               <FontAwesomeIcon icon={faHeart} className="px-1"/> 
                 <span> by Sohag</span>
